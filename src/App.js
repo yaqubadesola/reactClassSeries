@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {BioData as Data} from "./BioData";
 
-function App() {
+// const greetings = () => {
+//   return "Welcome to React Tutorial"
+// }
+
+const App = () => {
+  const dataSet = [
+                {name:"Raheem Adesola Yaqub", age: "20", address: "Lagos Mainland", level:"5"},
+                {name:"Sheriff Hammed", age: "25", address: "UK" , level:"2"},
+                {name:"Adekunle Hammed", age: "20", address: "New Jersey", level:"3"},
+                {name:"Sherifat Hammed", age: "35", address: "California", level:"7"}
+              ]
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Address</th>
+          <th>Level</th>
+        </tr>
+          {dataSet.map(data => <Data data={data}/>)}
+      
+      </table>
     </div>
   );
 }

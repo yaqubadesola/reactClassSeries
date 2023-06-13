@@ -1,4 +1,5 @@
 import React from "react";
+import TableComp from "./TableComp";
 import AnotherClassComponent from "./AnotherClassComponent";
 import {BioData as Data} from "./BioData";
 import LifeCycleMethods from "./LifeCycleMethods";
@@ -33,6 +34,7 @@ const App = () => {
       <AnotherClassComponent summary="First Term Grade" /> */
       }
       <LifeCycleMethods anotherName="Sheriff"/>
+      <TableComp/>
     </div>
   );
 }

@@ -1,0 +1,197 @@
+export const nigeriaData = [
+  {
+    "code2": "NG",
+    "code3": "NGA",
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "states": [
+      {
+        "code": "AB",
+        "name": "Abia",
+        "color": ["green", "yellow", "red"]
+      },
+      {
+        "code": "FC",
+        "name": "Abuja Federal Capital Territory",
+        "color": ["green", "pink", "red"]
+      },
+      {
+        "code": "AD",
+        "name": "Adamawa",
+        "color": ["blue", "yellow", "red"]
+      },
+      {
+        "code": "AK",
+        "name": "Akwa Ibom",
+        "color": ["green", "yellow", "red"]
+      },
+      {
+        "code": "AN",
+        "name": "Anambra",
+        "color": ["green", "grey", "red"]
+      },
+      {
+        "code": "BA",
+        "name": "Bauchi",
+        "color": ["green", "yellow", "red"]
+      },
+      {
+        "code": "BY",
+        "name": "Bayelsa",
+        "color": ["green", "pink", "red"]
+      },
+      {
+        "code": "BE",
+        "name": "Benue",
+        "color": ["black", "yellow", "red"]
+      },
+      {
+        "code": "BO",
+        "name": "Borno",
+        "color": ["green", "yellow", "red"]
+      },
+      {
+        "code": "CR",
+        "name": "Cross River",
+        "color": ["green", "magenta", "red"]
+      },
+      {
+        "code": "DE",
+        "name": "Delta",
+        "color": ["black", "linen", "red"]
+      },
+      {
+        "code": "EB",
+        "name": "Ebonyi",
+        "color": ["red", "yellow", "red"]
+      },
+      {
+        "code": "ED",
+        "name": "Edo",
+        "color": ["yellow", "red", "yellow"]
+      },
+      {
+        "code": "EK",
+        "name": "Ekiti",
+        "color": ["pink", "yellow", "red"]
+      },
+      {
+        "code": "EN",
+        "name": "Enugu",
+        "color": ["red", "yellow", "red"]
+      },
+      {
+        "code": "GO",
+        "name": "Gombe",
+        "color": ["green", "red", "green"]
+      },
+      {
+        "code": "IM",
+        "name": "Imo",
+        "color": ["black", "yellow", "red"]
+      },
+      {
+        "code": "JI",
+        "name": "Jigawa",
+        "color": ["green", "yellow", "red"]
+      },
+      {
+        "code": "KD",
+        "name": "Kaduna",
+        "color": ["green", "yellow", "red"]
+      },
+      {
+        "code": "KN",
+        "name": "Kano",
+        "color": ["green", "yellow", "red"]
+      },
+      {
+        "code": "KT",
+        "name": "Katsina",
+        "color": ["green", "yellow", "red"]
+      },
+      {
+        "code": "KE",
+        "name": "Kebbi",
+        "color": ["red", "maroon", "red"]
+      },
+      {
+        "code": "KO",
+        "name": "Kogi",
+        "color": ["green", "yellow", "red"]
+      },
+      {
+        "code": "KW",
+        "name": "Kwara",
+        "color": ["red", "yellow", "red"]
+      },
+      {
+        "code": "LA",
+        "name": "Lagos",
+        "color": ["green", "yellow", "red"]
+      },
+      {
+        "code": "NA",
+        "name": "Nassarawa",
+        "color": ["yellow", "yellow", "red"]
+      },
+      {
+        "code": "NI",
+        "name": "Niger",
+        "color": ["green", "red", "green"]
+      },
+      {
+        "code": "OG",
+        "name": "Ogun",
+        "color": ["yellow", "yellow", "red"]
+      },
+      {
+        "code": "ON",
+        "name": "Ondo",
+        "color": ["red", "green", "red"]
+      },
+      {
+        "code": "OS",
+        "name": "Osun",
+        "color": ["lemon", "grey", "red"]
+      },
+      {
+        "code": "OY",
+        "name": "Oyo",
+        "color": ["red", "lemon", "red"]
+      },
+      {
+        "code": "PL",
+        "name": "Plateau",
+        "color": ["purple", "yellow", "black"]
+      },
+      {
+        "code": "RI",
+        "name": "Rivers",
+        "color": ["green", "black", "red"]
+      },
+      {
+        "code": "SO",
+        "name": "Sokoto",
+        "color": ["green", "yellow", "red"]
+      },
+      {
+        "code": "TA",
+        "name": "Taraba",
+        "color": ["black", "yellow", "red"]
+      },
+      {
+        "code": "YO",
+        "name": "Yobe",
+        "color": ["green", "yellow", "black"]
+      },
+      {
+        "code": "ZA",
+        "name": "Zamfara",
+        "color": ["pink", "black", "red"]
+      }
+    ]
+  }
+]

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import SimpleForm from './SimpleForm';
 export default class LifeCycleMethods extends Component {
 
  //3 Phases of React LifeCycle Methods
@@ -11,7 +11,8 @@ export default class LifeCycleMethods extends Component {
     super(props)
     // console.warn("Contructor")
     this.state = {
-       first:"Yaqub"
+       firstName:"Yaqub",
+       surname:""
     }
   }
 
@@ -19,22 +20,25 @@ export default class LifeCycleMethods extends Component {
 //      return {first : props.anotherName}
 //   }
 
-//   componentDidMount(){
-//       setTimeout(() => {
-//           this.setState({first: "Adesola"})
-//       }, 5000);
-//   }
+  componentDidMount(){
+      setTimeout(() => {
+          this.setState({firstName: "Raheem"})
+      }, 5000);
+    }
 
-  changeName = () => {
-    this.setState({first: "Adesola"})
+  changeName = (name,e) => {
+    this.setState({firstName: name})
+    console.log(e)
   }
-
+  onSurnameChange = (e) => {
+    this.setState({surname: e.target.value})
+  }
   render() {
   //
     return (
     <div>
-        <h1>{this.state.first}</h1> 
-        <button onClick={this.changeName}>Change Name</button>
+        <h1>{this.state.firstName} : {this.state.surname}</h1> 
+        <SimpleForm getSurname={this.onSurnameChange} getFirstName={this.changeName} />
     </div>
     )
   }
